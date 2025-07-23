@@ -23,5 +23,5 @@ A responsive basketball-style scoreboard built with **HTML**, **CSS**, and **Jav
 
 ### 1. Clone or Download the Repository
 ```bash
-
+https://github.com/chesterandreigarcia/Scoreboard.git
 
