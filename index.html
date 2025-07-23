@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Scoreboard</title>
+  </head>
+  <body>
+    <div class="scoreboard">
+      <div class="timer">
+        <span id="minutes">10</span>:<span id="seconds">00</span>
+      </div>
+
+      <div class="teams">
+        <div class="team" id="home">
+          <h2>Home</h2>
+          <p id="home-score">0</p>
+          <button onclick="HomePlus1()">+1 Points</button>
+          <button onclick="HomePlus2()">+2 Points</button>
+          <button onclick="HomePlus3()">+3 Points</button>
+          <button onclick="HomeMinus1()">-1 Points</button>
+          <button onclick="HomeReset()">Reset Points</button>
+        </div>
+
+        <div class="period">
+          <p id="quarter">0</p>
+        </div>
+
+        <div class="team" id="away">
+          <h2>Away</h2>
+          <p id="away-score">0</p>
+          <button onclick="AwayPlus1()">+1 Points</button>
+          <button onclick="AwayPlus2()">+2 Points</button>
+          <button onclick="AwayPlus3()">+3 Points</button>
+          <button onclick="AwayMinus1()">-1 Points</button>
+          <button onclick="AwayReset()">Reset Points</button>
+        </div>
+      </div>
+
+      <div class="timer-controller">
+        <button onclick="StartTimer()">Start Timer</button>
+        <button onclick="PauseTimer()">Pause Timer</button>
+        <button onclick="ResetTimer()">Reset Timer</button>
+      </div>
+      <footer class="credits">Created by Chester Andrei Garcia</footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

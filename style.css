@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
+}
+
+body {
+  background: #e9e3df;
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.scoreboard {
+  width: 100%;
+  max-width: 800px;
+  background: #ff7a30;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.timer {
+  color: white;
+  font-size: 4rem;
+}
+
+.teams {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.team {
+  flex: 1;
+  background: #465c88;
+  border-radius: 10px;
+  padding: 15px;
+  color: white;
+}
+
+.team h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.team p {
+  font-size: 4rem;
+  margin: 10px 0;
+}
+
+.team button {
+  display: block;
+  width: 100%;
+  margin: 5px 0;
+  padding: 10px;
+  background: #2f3f64;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.team button:hover {
+  background: #3d5180;
+}
+
+.period {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  color: white;
+  background: #2f3f64;
+  padding: 20px;
+  border-radius: 10px;
+  min-width: 80px;
+  height: 100px;
+}
+
+.timer-controller {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.timer-controller button {
+  padding: 10px 20px;
+  background: #465c88;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.timer-controller button:hover {
+  background: #2f3f64;
+}
+
+.credits {
+  margin-top: 20px;
+  font-size: 0.9rem;
+  color: #333;
+  text-align: center;
+  opacity: 0.7;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .timer {
+    font-size: 3rem;
+  }
+
+  .teams {
+    flex-direction: column;
+  }
+
+  .team p {
+    font-size: 3rem;
+  }
+
+  .team button {
+    font-size: 1rem;
+  }
+
+  .team h2 {
+    font-size: 1.5rem;
+  }
+
+  .period {
+    height: auto;
+    font-size: 1.5rem;
+  }
+
+  .timer-controller button {
+    font-size: 1rem;
+  }
+}
