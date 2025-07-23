@@ -2,7 +2,7 @@
 
 A responsive basketball-style scoreboard built with **HTML**, **CSS**, and **JavaScript**. The app tracks the home and away team scores, the game quarter, and includes a countdown timer with basic controls.
 
-![screenshot](ScreenshotScoreboard) <!-- Optional: Add a screenshot here -->
+![screenshot](ScreenshotScoreboard) 
 
 ---
 
