@@ -6,6 +6,12 @@ A responsive basketball-style scoreboard built with **HTML**, **CSS**, and **Jav
 
 ---
 
+## 🔗 Live Demo
+
+👉 [Try it here on Vercel](https://scoreboard-chi-seven.vercel.app/)
+
+---
+
 ## 📌 Features
 
 - ⏱️ **Countdown Timer**
